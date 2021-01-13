@@ -33,6 +33,41 @@ const render = require("./lib/htmlRenderer");
 // for further information. Be sure to test out each class and verify it generates an
 // object with the correct structure and methods. This structure will be crucial in order
 // for the provided `render` function to work! ```
+class  {
+    constructor () {
+        this.employees = []
+    }
+
+    getEmployeeType = () => {
+        inquirer
+          .prompt([
+            {
+              type: "list",
+              name: "employeeType",
+              choices: ["Manager", "Engineer","Intern"],
+              message: "Please select an employee to create:"
+            }
+          ])
+          .then(val => {
+            switch(val.employeeType) {
+                case "Manager":
+                    getManagerInfo();
+                    break;
+                case "Engineer":
+                    getEngineerInfo();
+                    break;
+                case "Intern":
+                    getInternInfo();
+                    break;
+            }
+          });
+    }
+
+    init = () => {
+        getEmployeeType();
+    }
+
+}
 
 const employeesArray[];
 
@@ -62,8 +97,6 @@ const getEmployeeType = () => {
       });
 }
 
-const init = () => {
-    getEmployeeType();
-}
+const 
 
 init();
