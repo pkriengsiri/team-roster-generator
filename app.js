@@ -35,5 +35,6 @@ const render = require("./lib/htmlRenderer");
 // object with the correct structure and methods. This structure will be crucial in order
 // for the provided `render` function to work! ```
 
+
 const myRoster = new Roster();
 myRoster.init();
