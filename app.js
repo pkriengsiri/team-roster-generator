@@ -1,6 +1,7 @@
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
+const Roster = require("./lib/Roster")
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
@@ -33,3 +34,6 @@ const render = require("./lib/htmlRenderer");
 // for further information. Be sure to test out each class and verify it generates an
 // object with the correct structure and methods. This structure will be crucial in order
 // for the provided `render` function to work! ```
+
+const myRoster = new Roster();
+myRoster.init();
