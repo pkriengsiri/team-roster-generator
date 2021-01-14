@@ -1,0 +1,46 @@
+/* ELEMENT SELECTORS */
+a {
+    color: #264653;
+}
+
+body {
+    background-color: #E9C46A;
+}
+
+/* CLASS SELECTORS */
+.card {
+    /* border: 2px;
+    border-style: dashed;
+    border-color: #333; */
+    background-color: #2A9D8F;
+    color: #ffddc1;
+    border: none;
+    box-shadow: 5px 5px 3px #666;
+}
+
+.card-body .list-group-item {
+    background-color: #2A9D8F;
+}
+
+.card-header {
+    background-color: #E76F51;
+    color: #FFF;
+}
+
+.info {
+    color: #264653;
+}
+
+.list-group {
+    box-shadow: 3px 3px 2px #666;
+}
+
+.team-heading {
+    background-color: #264653;
+    color: #fff;
+}
+
+
+
+
+
