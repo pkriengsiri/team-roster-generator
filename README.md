@@ -21,7 +21,7 @@ This project generates an HTML page containing a roster for a software engineeri
 * [Questions](#questions)
   
 ## Installation
-From GitHub, fork the repo all upload all contents to the deployed webserver (or deploy using GitHub Pages).  The server must have Node.js installed.  Once forked, run `npm i` from the root directory to install required dependencies.
+From GitHub, fork the repo all upload all contents to the deployed webserver.  The server must have Node.js installed.  Once forked, run `npm i` from the root directory to install required dependencies.
   
 ## Usage
 From the application's root directory, run `node app.js`.  Follow the user prompts to provide information about each employee in the software engineering team.  Upon completion, the application will generate a new `team.html`, in the `./output` directory
